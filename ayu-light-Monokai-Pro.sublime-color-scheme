@@ -8,7 +8,7 @@
 		"block_caret": "#ff99404d",
 		"line_highlight": "#959da61a",
 		"accent": "#ff9940",
-		"popup_css": "\n      html, body {\n        background-color: #ffffff;\n        color: #6c7680;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: rgba(85,180,212, .7);\n      }\n    ",
+		"popup_css": "\n      html, body {\n        background-color: #ffffff;\n        color: #6c7680;\n        --mdpopups-font-mono: \"PragmataPro Mono Liga\", \"sf mono\", Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\n        --mdpopups-bg: #ffffff;\n        --mdpopups-link: #55b4d4;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: rgba(85,180,212, .7);\n      }\n    ",
 		"gutter": "#fafafa",
 		"gutter_foreground": "#959da666",
 		"line_diff_width": "2",
@@ -407,7 +407,7 @@
 		// below is from PlainNotes
 		{
 			"name": "Fenced Code Block with Syntax Highlighting",
-			"scope": "markup.raw.block.markdown",
+			"scope": "markup.raw.block.markdown, markup.raw.block.fenced.markdown",
 			"background": "#2d2a2e",
 			"foreground": "#fcfcfa",
 			"selection_foreground": "#AACBDF",
